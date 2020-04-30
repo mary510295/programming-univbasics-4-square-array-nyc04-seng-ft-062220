@@ -6,6 +6,6 @@ def square_array(array)
   while i < array.length do 
     newArr.push(array[i] * array[i])
     i += 1
-    binding.pry
   end
+      binding.pry
 end
