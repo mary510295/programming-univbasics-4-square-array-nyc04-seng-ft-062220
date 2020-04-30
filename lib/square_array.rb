@@ -7,5 +7,5 @@ def square_array(array)
     newArr.push(array[i] * array[i])
     i += 1
   end
-      binding.pry
+  newArr
 end
